@@ -1,0 +1,28 @@
+{
+    "5ecd-4d62-890d": {
+        "fields": {
+            "adeb-4c8d-9eb8": {
+                "id": "adeb-4c8d-9eb8", 
+                "name": "TITLE", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "de93-4a44-a1fc": {
+                "id": "de93-4a44-a1fc", 
+                "name": "PRICE", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "32a7-4a77-9865": {
+                "id": "32a7-4a77-9865", 
+                "name": "PRODUCT", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "ml"
+    }
+}

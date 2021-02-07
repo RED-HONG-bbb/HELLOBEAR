@@ -1,0 +1,107 @@
+{
+    "extractors": {},
+    "id": "91ee-4713-b9cb",
+    "name": "ml",
+    "page_id": "",
+    "page_type": "item",
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    },
+                    "container_id": null,
+                    "id": "8bb7-4ad1-9e32",
+                    "item_container": true,
+                    "repeated": false,
+                    "required": [],
+                    "schema_id": "5ecd-4d62-890d",
+                    "selector": ".pd-box",
+                    "siblings": 0,
+                    "tagid": null,
+                    "text-content": "#portia-content"
+                },
+                {
+                    "accept_selectors": [
+                        ".Product-title"
+                    ],
+                    "container_id": "8bb7-4ad1-9e32",
+                    "data": {
+                        "75c5-4f3d-8dcb": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "adeb-4c8d-9eb8",
+                            "required": false
+                        }
+                    },
+                    "id": "dfe3-409d-8b0b",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".pd-box > div:nth-child(2) > .ProductDetail-product > .ProductDetail-product-info > .box-default > .Product-title",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product-info \")]/*[contains(concat(\" \", @class, \" \"), \" box-default \")]/*[contains(concat(\" \", @class, \" \"), \" Product-title \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".price-regular"
+                    ],
+                    "container_id": "8bb7-4ad1-9e32",
+                    "data": {
+                        "bd28-4303-a164": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "de93-4a44-a1fc",
+                            "required": false
+                        }
+                    },
+                    "id": "32b0-4b7d-ad54",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".pd-box > div:nth-child(2) > .ProductDetail-product > .ProductDetail-product-info > .box-default > .product-detail-actions > .not-same-price > .price-box > .global-primary",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/div[2]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-product-info \")]/*[contains(concat(\" \", @class, \" \"), \" box-default \")]/*[contains(concat(\" \", @class, \" \"), \" product-detail-actions \")]/*[contains(concat(\" \", @class, \" \"), \" not-same-price \")]/*[contains(concat(\" \", @class, \" \"), \" price-box \")]/*[contains(concat(\" \", @class, \" \"), \" global-primary \")]"
+                },
+                {
+                    "accept_selectors": [
+                        ".ProductDetail-description > p"
+                    ],
+                    "container_id": "8bb7-4ad1-9e32",
+                    "data": {
+                        "06df-4ca4-9140": {
+                            "attribute": "content",
+                            "extractors": {},
+                            "field": "32a7-4a77-9865",
+                            "required": false
+                        }
+                    },
+                    "id": "1639-4c3c-9252",
+                    "post_text": null,
+                    "pre_text": null,
+                    "reject_selectors": [],
+                    "repeated": false,
+                    "required": [],
+                    "selection_mode": "auto",
+                    "selector": ".pd-box > .ProductDetail-additionalInfo > .col-xs-12 > .Tabset > .active > .ProductDetail-description > p",
+                    "tagid": null,
+                    "text-content": "content",
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" pd-box \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-additionalInfo \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" Tabset \")]/*[contains(concat(\" \", @class, \" \"), \" active \")]/*[contains(concat(\" \", @class, \" \"), \" ProductDetail-description \")]/p"
+                }
+            ]
+        }
+    },
+    "scrapes": "5ecd-4d62-890d",
+    "spider": "www.hellobear.com.hk_1",
+    "url": "https://www.hellobear.com.hk/products/taiwan-hocom-glass-stain-scale-spray-cleaning-with-magic-sponge-500ml",
+    "version": "0.13.3"
+}
